@@ -1,54 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ranam Hamoud</title>
     <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.17/dist/tailwind.min.css"
       rel="stylesheet"
-      href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"
     />
-    <link rel="canonical" href="https://html5-templates.com/" />
-    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-    <script src="script.js"></script>
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <title>Ranam's Projects</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gaegu&display=swap" rel="stylesheet">
+<link rel="icon" type="image/png" href="favicon.png">
+
   </head>
-  <body>
-    <div id="desktop">
-      <div class="window" data-title="First">hotel 351</div>
-      <div class="window" data-title="Second">Second Window</div>
-      <div class="window closed" data-title="Third">
-        Third window starts closed
-      </div>
-      <div class="window closed" data-title="Fourth">
-      <div class="window" data-title="Welcome">
-        <h1>Welcome to my portfolio</h1>
-        <p>
-          Minimize the windows to the taskbar, make them full screen or close
-          them.
-        </p>
-        <p>
-          Drag the title bar to move the windows or resize them from the bottom
-          right corner.
-        </p>
-        <hr />
-        <p>
-          <strong>Hello This is Ranam</strong>
-          <p>I am a computer science and engineering student</p>
-        </p>
-      </div>
+  <body class="">
+    <div class="container mx-auto px-12 py-8">
+      <div
+        class="bg-white flex flex-col space-y-12 rounded-lg p-8 md:px-24 px-8"
+      >
+        <div class="text-center -mb-6">
+          <img
+            class="w-32 h-32 mb-4 mx-auto rounded-full object-contain"
+            src="img.jpeg"
+            alt="Your Name"
+          />
+          <h1 class="text-4xl font-semibold mt-2" style="font-family: Gaegu; color:#4b2b59;">Ranam Hamoud</h1>
+          <h2 class="text-l font-medium text-gray-600">
+            American University of Beirut
+          </h2>
+        </div>
+        <div class="text-center mb-4">
+          <h3 class="text-2xl font-semibold mb-2">About Me</h3>
+          <p class="text-gray-600">
+            I am a Computer Engineer specialized in Computational Data Science based in Beirut, Lebanon. I am passionate about AI, Human-Computer Interaction, education, and computer science. In my free time, I enjoy solving crosswords and listening to music.          </p>
+        </div>
+        <hr></hr>
+        <div class="mb-4">
+          <h3 class="text-2xl font-semibold mb-2">Education</h3>
+          <ul class="list-disc pl-5 text-gray-600">
+            <li>B.Eng, Computer Science and Engineering, American University of Beirut, 2024</li>
+            <li>International Honors Program, Stanford University, 2022</li>
+          </ul>
+        </div>
 
-      <div id="taskbar"></div>
+        <div class="mb-4">
+            <h3 class="text-2xl font-semibold mb-2">Experience</h3>
+            <ul class="list-disc pl-5 text-gray-600">
+              <li>Data Analyst, Elie Saab, Jan 2025 - Present</li>
+              <li>Data Science Research Assistant, United Nations - ESCWA, Aug 2024 - Dec 2024</li>
+              <li>Research Assistant, AIDsC Hub, American University of Beirut, Oct 2022 - Jan 2025</li>
+              <li>Research Volunteer, Clinical Research Institute, American University of Beirut, </li>
+              <li>Research Intern, DAVID Lab, Paris-Saclay University, Jun 2023 - Aug 2023</li>
+            </ul>
+          </div>
+        <div class="mb-4">
+          <h3 class="text-2xl font-semibold mb-2">Publications</h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div class="bg-gray-100 p-4 rounded-lg ">
+              <p class="font-medium">
+Lifestyle and Health Behavior Changes in the COVID-19 Pandemic: A Role for Mental Health Symptoms and Diagnosis and Daily Life Difficulties During Lockdown in Lebanon
+              </p>
+              <p class="italic text-sm mb-2">
+                Sara Mansour, Rawan A Hammoud, Ranam Hamoud, Samya El Sayed, Hala Kerbage, Batoul Assi, Ahmad Assi, Martine Elbejjani (2024)
+              </p>
+            </div>
+           <!-- Add more publication cards here -->
+          </div>
+        </div>
 
-      <div id="icons">
-        <a class="openWindow" data-id="0">Open first</a>
-        <a class="openWindow" data-id="1">Open second</a>
-        <a class="openWindow" data-id="2">Open third</a>
-        <a class="openWindow" data-id="3">Welcome screen</a>
-        <a class="openWindow" data-id="4">Open Fourth</a>
+
+        <div class="mb-4">
+          <h3 class="text-2xl font-semibold mb-2">Contact</h3>
+          <p class="text-gray-600">
+            Email:
+            <a
+              class="text-purple-600 hover:underline"
+              href="mailto:ranamhamoud@outlook.com"
+              >ranamhamoud@outlook.com</a
+            ><br />
+          </p>
+        </div>
       </div>
+    </div>
+    <div class="flex justify-center mb-4 text-gray-400 text-sm">The webpage template is taken from
+      <a class="text-purple-600 ml-1" href="https://github.com/onpix/minimal-academic-website"> onpix</a>
     </div>
   </body>
 </html>
